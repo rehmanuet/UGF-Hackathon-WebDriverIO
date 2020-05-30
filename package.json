@@ -1,0 +1,26 @@
+{
+  "name": "tau_hackathone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "i": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^6.1.15",
+    "@wdio/jasmine-framework": "^6.1.14",
+    "@wdio/local-runner": "^6.1.14",
+    "@wdio/mocha-framework": "^6.1.14",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14",
+    "chai-jasmine": "^2.0.3",
+    "chromedriver": "^80.0.2",
+    "wdio-chromedriver-service": "^6.0.3"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
