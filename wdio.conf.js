@@ -16,6 +16,7 @@ exports.config = {
     // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
+    path: '/wd/hub',
     specs: [
         './test/**/*.js'
     ],
@@ -45,20 +46,23 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
-    capabilities: [{
-    
-        // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-        // grid with only 5 firefox instances available you can make sure that not more than
-        // 5 instances get started at a time.
-        maxInstances: 5,
-        //
-        browserName: 'chrome',
-        // If outputDir is provided WebdriverIO can capture driver session logs
-        // it is possible to configure which logTypes to include/exclude.
-        // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
-        // excludeDriverLogs: ['bugreport', 'server'],
-    }],
+
+
+    // capabilities: [{
+    //     maxInstances: 5,
+    //     browserName: 'chrome',
+    // }],
     //
+    capabilities: [{
+        browserName: 'chrome',
+        port: 4444
+    }
+    , {
+        browserName: 'firefox',
+        port: 4444
+    }
+],
+
     // ===================
     // Test Configurations
     // ===================
@@ -105,7 +109,24 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver'],
+    services: [
+        ['selenium-standalone'
+        , {
+            logPath: 'logs',
+            installArgs: {
+                drivers: {
+                    chrome: { version: '80.0.3987.106' },
+                    firefox: { version: '0.26.0' }
+                }
+            },
+            args: {
+                drivers: {
+                    chrome: { version: '80.0.3987.106' },
+                    firefox: { version: '0.26.0' }
+                }
+            },
+        }]
+    ],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
