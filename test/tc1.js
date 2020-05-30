@@ -11,7 +11,7 @@ describe('Task 1 - Header location', function() {
         // browser.setTimeout({
         //     'implicit': 5000
         // });
-        // browser.setWindowRect(0, 0, 375, 500)
+        browser.setWindowRect(0, 0, 375, 500)
         browser.url('https://demo.applitools.com/gridHackathonV1.html');
       });
     
@@ -19,7 +19,7 @@ describe('Task 1 - Header location', function() {
 
     let SearchBar = $('#DIV__customsear__41').isDisplayedInViewport();
     console.log("Search Bar= "+SearchBar); 
-
+    console.log( browser.capabilities.browserName)
      let SearchBar_ISDISOLAYED = $('#DIV__customsear__41').isDisplayed();
       console.log("Search Bar_ IsDisplaced= "+SearchBar_ISDISOLAYED); 
 
