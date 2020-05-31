@@ -1,12 +1,10 @@
 const fs = require('fs');
-const viewport = "1200x700";
-const device = "Laptop";
 
 
 class FileUtils {
 
-    hackathonReporter(task, testName,browsers, domId, comparisonResult) {
-        fs.appendFileSync('Traditional-V1-TestResults.txt', `"Task: ${task}, Test Name: ${testName}, DOM Id: ${domId}, Browser: ${browsers}, Viewport: ${viewport}, Device: ${device}, Status: ${(comparisonResult ? "Pass" : "Fail")}\n`);
+    hackathonReporter(task, testName, browsers, viewportw,viewporth,device,domId ,comparisonResult) {
+        fs.appendFileSync('Traditional-V1-TestResults.txt', `"Task: ${task}, Test Name: ${testName}, DOM Id: ${domId}, Browser: ${browsers}, Viewport: ${viewportw}x${viewporth}, Device: ${device}, Status: ${(comparisonResult ? "Pass" : "Fail")}\n`);
         return comparisonResult;
     }
 }

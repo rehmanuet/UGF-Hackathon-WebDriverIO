@@ -20,6 +20,7 @@
     "chai-jasmine": "^2.0.3"
   },
   "dependencies": {
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "jasmine-data-provider": "^2.2.0"
   }
 }
