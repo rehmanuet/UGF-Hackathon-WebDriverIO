@@ -17,6 +17,8 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     path: '/wd/hub',
+
+
     specs: [
         './test/**/*.js'
     ],
@@ -53,12 +55,17 @@ exports.config = {
     //     browserName: 'chrome',
     // }],
     //
-    capabilities: [{
+    capabilities: [
+        {
         browserName: 'chrome',
         port: 4444
-    }
-    , {
+    },
+    {
         browserName: 'firefox',
+        port: 4444
+    },
+    {
+        browserName: 'MicrosoftEdge',
         port: 4444
     }
 ],
@@ -116,7 +123,9 @@ exports.config = {
             installArgs: {
                 drivers: {
                     chrome: { version: '80.0.3987.106' },
-                    firefox: { version: '0.26.0' }
+                    firefox: { version: '0.26.0' },
+                    
+                
                 }
             },
             args: {
