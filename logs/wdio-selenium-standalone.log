@@ -1,6 +1,6 @@
-2020-05-31 00:59:05.538:INFO::main: Logging initialized @495ms to org.seleniumhq.jetty9.util.log.StdErrLog
-00:59:05.879 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
-00:59:06.007 ERROR [BaseServer.start] - Port 4444 is busy, please choose a free port and specify it using -port option
+2020-05-31 16:59:05.275:INFO::main: Logging initialized @504ms to org.seleniumhq.jetty9.util.log.StdErrLog
+16:59:05.688 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+16:59:05.787 ERROR [BaseServer.start] - Port 4444 is busy, please choose a free port and specify it using -port option
 Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use: bind
 	at org.openqa.selenium.grid.server.BaseServer.start(BaseServer.java:212)
 	at org.openqa.selenium.remote.server.SeleniumServer.boot(SeleniumServer.java:137)
