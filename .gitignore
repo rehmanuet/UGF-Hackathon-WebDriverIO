@@ -2,3 +2,4 @@ node_modules/*
 npm-debug.log
 junk.txt
 logs/wdio-selenium-standalone.log
+EdgeDriver.txt

@@ -57,18 +57,18 @@ exports.config = {
     //
     capabilities: [
         {
-        browserName: 'chrome',
-        port: 4444
-    },
-    {
-        browserName: 'firefox',
-        port: 4444
-    },
-    {
-        browserName: 'MicrosoftEdge',
-        port: 4444
-    }
-],
+            browserName: 'chrome',
+            port: 4444
+        },
+        {
+            browserName: 'firefox',
+            port: 4444
+        },
+        {
+            browserName: 'MicrosoftEdge',
+            port: 4444
+        }
+    ],
 
     // ===================
     // Test Configurations
@@ -118,25 +118,23 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     services: [
         ['selenium-standalone'
-        , {
-            logPath: 'logs',
-            installArgs: {
-                drivers: {
-                    chrome: { version: '80.0.3987.106' },
-                    firefox: { version: '0.26.0' },
-                    
-                
-                }
-            },
-            args: {
-                drivers: {
-                    chrome: { version: '80.0.3987.106' },
-                    firefox: { version: '0.26.0' }
-                }
-            },
-        }]
+            , {
+                logPath: 'logs',
+                installArgs: {
+                    drivers: {
+                        chrome: { version: '80.0.3987.106' },
+                        firefox: { version: '0.26.0' },
+                    }
+                },
+                args: {
+                    drivers: {
+                        chrome: { version: '80.0.3987.106' },
+                        firefox: { version: '0.26.0' }
+                    }
+                },
+            }]
     ],
-    
+
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks.html
@@ -145,9 +143,7 @@ exports.config = {
     // before running any tests.
     framework: 'jasmine',
 
-    jasmineNodeOpts: {
-        defaultTimeoutInterval: 120000
-    },
+
     //
     // The number of times to retry the entire specfile when it fails as a whole
     // specFileRetries: 1,
@@ -161,21 +157,21 @@ exports.config = {
     reporters: ['spec'],
 
 
-    
+
     //
     // Options to be passed to Jasmine.
     jasmineNodeOpts: {
         // Jasmine default timeout
-        defaultTimeoutInterval: 60000,
+        defaultTimeoutInterval: 160000,
         //
         // The Jasmine framework allows interception of each assertion in order to log the state of the application
         // or website depending on the result. For example, it is pretty handy to take a screenshot every time
         // an assertion fails.
-        expectationResultHandler: function(passed, assertion) {
+        expectationResultHandler: function (passed, assertion) {
             // do something
         }
     },
-    
+
     //
     // =====
     // Hooks
@@ -305,4 +301,4 @@ exports.config = {
     */
     //onReload: function(oldSessionId, newSessionId) {
     //}
-}
+};
