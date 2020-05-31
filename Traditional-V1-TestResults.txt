@@ -4,3 +4,10 @@
 "Task: 1, Test Name: Search field is displayed, DOM Id: DIV__customsear__41, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
 "Task: 1, Test Name: Wish List should be displayed, DOM Id: #A__wishlist__52, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
 "Task: 1, Test Name: Categories should be displayed, DOM Id: #NAV__colxlcollg__10, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+____
+"Task: 1, Test Name: Search field is displayed, DOM Id: DIV__customsear__41, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 1, Test Name: Wish List should be displayed, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 1, Test Name: Search field is displayed, DOM Id: DIV__customsear__41, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 1, Test Name: Categories should be displayed, DOM Id: #NAV__colxlcollg__10, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 1, Test Name: Wish List should be displayed, DOM Id: #A__wishlist__52, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 1, Test Name: Categories should be displayed, DOM Id: #NAV__colxlcollg__10, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
