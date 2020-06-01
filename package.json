@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "i": "./node_modules/.bin/wdio wdio.conf.js"
+    "task1:v1": "./node_modules/.bin/wdio wdio.conf.js",
+    "task1:v2": "SET VERSION=v2 & wdio wdio.conf.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "chai-jasmine": "^2.0.3"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
     "jasmine-data-provider": "^2.2.0"
   }

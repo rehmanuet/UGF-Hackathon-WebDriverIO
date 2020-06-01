@@ -1,3 +1,5 @@
+
+let baseUrl = process.env.VERSION ? 'https://demo.applitools.com/gridHackathonV2.html':'https://demo.applitools.com/gridHackathonV1.html' 
 exports.config = {
     //
     // ====================
@@ -17,7 +19,6 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     path: '/wd/hub',
-
 
     specs: [
         './test/**/*.js'
@@ -50,11 +51,6 @@ exports.config = {
     //
 
 
-    // capabilities: [{
-    //     maxInstances: 5,
-    //     browserName: 'chrome',
-    // }],
-    //
     capabilities: [
         {
             browserName: 'chrome',
@@ -100,7 +96,8 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
+    baseUrl: baseUrl,
+    // baseUrl: 'https://demo.applitools.com/gridHackathonV1.html',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -122,14 +119,16 @@ exports.config = {
                 logPath: 'logs',
                 installArgs: {
                     drivers: {
-                        chrome: { version: '80.0.3987.106' },
+                        chrome: { version: '83.0.4103.39' },
                         firefox: { version: '0.26.0' },
+                        MicrosoftEdge: { version: '83.0.478.37' }
                     }
                 },
                 args: {
                     drivers: {
-                        chrome: { version: '80.0.3987.106' },
-                        firefox: { version: '0.26.0' }
+                        chrome: { version: '83.0.4103.39' },
+                        firefox: { version: '0.26.0' },
+                        MicrosoftEdge: { version: '83.0.478.37' }
                     }
                 },
             }]
