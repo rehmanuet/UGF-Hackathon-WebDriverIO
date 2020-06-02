@@ -1,5 +1,13 @@
 
-let baseUrl = process.env.VERSION ? 'https://demo.applitools.com/gridHackathonV2.html':'https://demo.applitools.com/gridHackathonV1.html' 
+// let baseUrl = process.env.VERSION ? 'https://demo.applitools.com/gridHackathonV2.html':'https://demo.applitools.com/gridHackathonV1.html' 
+let baseUrl
+if (process.env.VERSION.trim() === 'V1') {
+     baseUrl = 'https://demo.applitools.com/gridHackathonV1.html'
+} else if (process.env.VERSION.trim() === 'V2'){
+     baseUrl = 'https://demo.applitools.com/gridHackathonV2.html'
+}
+
+
 exports.config = {
     //
     // ====================
@@ -55,8 +63,8 @@ exports.config = {
         {
             browserName: 'chrome',
             port: 4444
-        },
-        {
+        }
+        ,{
             browserName: 'firefox',
             port: 4444
         },

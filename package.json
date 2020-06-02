@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "task1:v1": "./node_modules/.bin/wdio wdio.conf.js",
-    "task1:v2": "SET VERSION=v2 & wdio wdio.conf.js"
+    "task1:v1": "SET VERSION=V1 && wdio wdio.conf.js",
+    "task1:v2": "SET VERSION=V2 && wdio wdio.conf.js"
   },
-  "author": "",
+  "author": "Abdur Rehman Ashraf",
   "license": "ISC",
   "devDependencies": {
     "@wdio/cli": "^6.1.15",
