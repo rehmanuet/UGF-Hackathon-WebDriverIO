@@ -21,3 +21,6 @@ Submitter: Abdur Rehman Ashraf
 |     <sub>Tablet</sub>   |     <sub>800x700</sub>          |
 | <sub>Mobile</sub> | <sub>500x700</sub>   |
 
+
+npm install -g webdriver-manager
+webdriver-manager start <pathtodriver> <<<<<Addded later
