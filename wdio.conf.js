@@ -29,8 +29,11 @@ exports.config = {
     path: '/wd/hub',
 
     specs: [
-        './test/**/*.js'
+        './test/**/task_2.js'
     ],
+    // specs: [
+    //     './ModernTest/**/*.js'
+    // ],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -64,14 +67,14 @@ exports.config = {
             browserName: 'chrome',
             port: 4444
         }
-        ,{
-            browserName: 'firefox',
-            port: 4444
-        },
-        {
-            browserName: 'MicrosoftEdge',
-            port: 4444
-        }
+        // ,{
+        //     browserName: 'firefox',
+        //     port: 4444
+        // },
+        // {
+        //     browserName: 'MicrosoftEdge',
+        //     port: 4444
+        // }
     ],
 
     // ===================
@@ -123,23 +126,24 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     services: [
         ['selenium-standalone'
-            , {
-                logPath: 'logs',
-                installArgs: {
-                    drivers: {
-                        chrome: { version: '83.0.4103.39' },
-                        firefox: { version: '0.26.0' },
-                        MicrosoftEdge: { version: '83.0.478.37' }
-                    }
-                },
-                args: {
-                    drivers: {
-                        chrome: { version: '83.0.4103.39' },
-                        firefox: { version: '0.26.0' },
-                        MicrosoftEdge: { version: '83.0.478.37' }
-                    }
-                },
-            }]
+            // , {
+            //     logPath: 'logs',
+            //     installArgs: {
+            //         drivers: {
+            //             chrome: { version: '83.0.4103.97' },
+            //             firefox: { version: '0.26.0' },
+            //             MicrosoftEdge: { version: '83.0.478.37' }
+            //         }
+            //     },
+            //     args: {
+            //         drivers: {
+            //             chrome: { version: '83.0.4103.97' },
+            //             firefox: { version: '0.26.0' },
+            //             MicrosoftEdge: { version: '83.0.478.37' }
+            //         }
+            //     },
+            // }
+        ]
     ],
 
     // Framework you want to run your specs with.
