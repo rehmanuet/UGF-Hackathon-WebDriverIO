@@ -1,3 +1,24 @@
 "Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed on chrome browser, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed on chrome browser, DOM Id: #colors__Black, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
 "Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed on chrome browser, DOM Id: #colors__Black, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass

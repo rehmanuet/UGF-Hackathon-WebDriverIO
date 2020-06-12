@@ -21,12 +21,12 @@ exports.config = {
 
     path: '/wd/hub',
 
-    // specs: [
-    //     './test/**/task_2.js'
-    // ],
     specs: [
-        './ModernTest/**/task_2m.js'
+        './test/**/task_2.js'
     ],
+    // specs: [
+    //     './ModernTest/**/task_2m.js'
+    // ],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
