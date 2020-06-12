@@ -27,10 +27,7 @@ describe(`Task 2 - ${process.env.VERSION} Traditional`, function () {
       var results = $$('.grid_item').filter(function (item) {
         return item.isDisplayed();
     });
-    $('[id^="product_"]').moveTo()
-    browser.pause(5000)
-      browser.pause(5000)
-      browser.pause(5000)
+  
       assert.strictEqual(
         Utils.report.hackathonReporter(2, `${results.length} Items have been available after filtering black shoe displayed`, browser.capabilities.browserName, testData.width, testData.height, testData.device, '#colors__Black', results.length, 2), 2)
     });
