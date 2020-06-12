@@ -1,61 +1,69 @@
-
 const Utils = require('../utils/utils.js')
 
 var assert = require('assert')
 const {
-    By,
-    Eyes,
-    Target,
-    VisualGridRunner,
-    Configuration
+  By,
+  Eyes,
+  Target,
+  Region,
+  BatchInfo,
+  DeviceName,
+  BrowserType,
+  Configuration,
+  VisualGridRunner,
+  ScreenOrientation
+} = require('@applitools/eyes-webdriverio');
 
-  } = require('@applitools/eyes-webdriverio');
+let eyes;
 
-  let eyes;
-
-describe(`Task 2 -Traditional`, function () {
-  
-
-    it(`should filter black shoes correctly on  devices`, async function() {
+describe(`Task 2 - Modern UFG Testing`, function() {
 
 
-        const runner = new VisualGridRunner();
+  it(`should filter black shoes correctly`, async function() {
 
-        eyes = new Eyes(runner);
-        const configuration = new Configuration();
-    configuration.setAppName('Demo App');
-    configuration.setTestName('Smoke Test');
+    const runner = new VisualGridRunner(10);
+    eyes = new Eyes(runner);
+
+    const configuration = new Configuration();
     configuration.setApiKey("RhAPSyd7qQndu110jqybVopu4hF9w3KxBru4wQYU8Fwyg110");
+    configuration.setBatch("UFG Hackathon")
+    configuration.setAppName('Applitools Hackathon 2020');
+    configuration.setTestName('Task 2');
+    configuration.setMatchLevel("Content");
+    
+    //Chrome browser with two different viewports (Laptop, Tablet)
+    configuration.addBrowser(1200, 700, BrowserType.CHROME);
+    configuration.addBrowser(768, 700, BrowserType.CHROME);
+
+
+    //Firefox browser with two different viewports (Laptop, Tablet)
+    configuration.addBrowser(1200, 700, BrowserType.FIREFOX);
+    configuration.addBrowser(768, 700, BrowserType.FIREFOX);
+
+    //Chromium Edge Browser with two different viewports (Laptop, Tablet)
+    configuration.addBrowser(1200, 700, BrowserType.CHROME_EDGE);
+    configuration.addBrowser(768, 700, BrowserType.CHROME_EDGE);
+
+    //iPhone X with Portrait Mode (Mobile)
+    configuration.addDeviceEmulation(DeviceName.iPhone_X, ScreenOrientation.PORTRAIT);
 
     eyes.setConfiguration(configuration);
+    
     await eyes.open(browser);
+    await browser.url('https://demo.applitools.com/gridHackathonV2.html');
 
-    await browser.url('https://demo.applitools.com/gridHackathonV1.html');
+    const color_black = await browser.$('#colors__Black');
+    await color_black.click();
 
-    // Visual checkpoint #1.
-    await eyes.check('Login Window', Target.window());
+    const filter_button = await browser.$('#filterBtn');
+    await filter_button.click();
 
-    // Click the "Log in" button.
-    // await driver.click(By.id('log-in'));
-    const loginButton = await browser.$('#colors__Black');
-    await loginButton.click();
-    const loginButton1 = await browser.$('#filterBtn');
-    await loginButton1.click();
- 
-    const t = await browser.$('#product_grid');
-     // Visual checkpoint #2.
-     await eyes.check('App Window', Target.region(t));
+    const items = await browser.$('#product_grid');
+    await eyes.check('Filter Results', Target.region(items));
 
-     await eyes.closeAsync();
-  
+    await eyes.closeAsync();
 
-    //   $('#colors__Black').click();
-    //   $('#filterBtn').click()
 
-    //   var results = $$('.grid_item').filter(function (item) {
-    //     return item.isDisplayed();
-   
-    });
+  });
 
 });
-

@@ -14,9 +14,7 @@ describe(`Task 2 - ${process.env.VERSION} Traditional`, function () {
       browser.setWindowRect(0, 0, testData.width, testData.height)
       browser.url('')
 
-      // if( testData.device.includes("Tablet") || testData.device.includes("Mobile")){
-      //   $('#ti-filter').click()
-      // }
+  
       if( !testData.device.includes("Laptop")){
         $('#ti-filter').click()
       }
