@@ -9,17 +9,13 @@ if (process.env.VERSION.trim() === 'V1') {
 
 
 exports.config = {
-    //
-    // ====================
-    // Runner Configuration
-    // ====================
-    //
-    // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
-    // on a remote machine).
+
     runner: 'local',
  
 
     path: '/wd/hub',
+    // path: '/',
+
 
     specs: [
         './test/**/task_2.js'
@@ -29,36 +25,32 @@ exports.config = {
     // ],
     // Patterns to exclude.
     exclude: [
-        // 'path/to/excluded/files'
     ],
     
 
     maxInstances: 10,
-    //
-    // If you have trouble getting all important capabilities together, check out the
-    // Sauce Labs platform configurator - a great tool to configure your capabilities:
-    // https://docs.saucelabs.com/reference/platforms-configurator
-    //
-
+  
 
     capabilities: [
+      
         {
-            browserName: 'chrome',
+            browserName: 'MicrosoftEdge',
             port: 4444
         }
-        // ,{
-        //     browserName: 'firefox',
-        //     port: 4444
-        // },
-        // {
-        //     browserName: 'MicrosoftEdge',
-        //     port: 4444
-        // }
     ],
 
     // ===================
     // Test Configurations
-    // ===================
+    // ===================  // {
+        //     browserName: 'chrome',
+        //     port: 4444
+        // }
+        // ,
+        // {
+        //     browserName: 'firefox',
+        //     port: 4444
+        // }
+        // ,
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
