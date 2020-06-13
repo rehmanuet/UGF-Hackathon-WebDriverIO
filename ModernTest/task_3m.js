@@ -16,10 +16,10 @@ const {
 
 let eyes;
 
-describe(`Task 2 - Modern UFG Testing`, function() {
+describe(`Task 3 - Modern UFG Testing`, function() {
 
 
-  it(`should filter black shoes correctly`, async function() {
+  it(`should navigate first black shoe details page and verify the product details. `, async function() {
 
     const runner = new VisualGridRunner(10);
     eyes = new Eyes(runner);
@@ -28,7 +28,8 @@ describe(`Task 2 - Modern UFG Testing`, function() {
     configuration.setApiKey("RhAPSyd7qQndu110jqybVopu4hF9w3KxBru4wQYU8Fwyg110");
     configuration.setBatch("UFG Hackathon")
     configuration.setAppName('Applitools Hackathon 2020');
-    configuration.setTestName('Task 2');
+    configuration.setTestName('Task 3');
+    configuration.setForceFullPageScreenshot(true);
     configuration.setMatchLevel("Content");
     
     //Chrome browser with two different viewports (Laptop, Tablet)
@@ -50,8 +51,8 @@ describe(`Task 2 - Modern UFG Testing`, function() {
     eyes.setConfiguration(configuration);
     
     await eyes.open(browser);
-    await browser.url('https://demo.applitools.com/gridHackathonV1.html');
-    // await browser.url('https://demo.applitools.com/gridHackathonV2.html');
+    // await browser.url('https://demo.applitools.com/gridHackathonV1.html');
+    await browser.url('https://demo.applitools.com/gridHackathonV2.html');
 
 
     const color_black = await browser.$('#colors__Black');
@@ -60,8 +61,10 @@ describe(`Task 2 - Modern UFG Testing`, function() {
     const filter_button = await browser.$('#filterBtn');
     await filter_button.click();
 
-    const items = await browser.$('#product_grid');
-    await eyes.check('Filter Results', Target.region(items));
+    const product_1 = await browser.$("#product_1");
+    await product_1.click();
+
+    await eyes.check('Product Details test', Target.window());
 
     await eyes.closeAsync();
 

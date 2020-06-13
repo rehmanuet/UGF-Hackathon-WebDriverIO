@@ -6,7 +6,8 @@
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js",
     "task1:v1": "SET VERSION=V1 && wdio wdio.conf.js",
-    "task1:v2": "SET VERSION=V2 && wdio wdio.conf.js"
+    "task1:v2": "SET VERSION=V2 && wdio wdio.conf.js",
+    "task": "wdio.js run wdio.conf.js --spec ./test/task_3.js"
   },
   "author": "Abdur Rehman Ashraf",
   "license": "ISC",

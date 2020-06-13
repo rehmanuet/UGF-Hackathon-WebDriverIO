@@ -18,10 +18,10 @@ exports.config = {
 
 
     specs: [
-        './test/**/task_3.js'
+        './test/**/*.js'
     ],
     // specs: [
-    //     './ModernTest/**/task_2m.js'
+    //     './ModernTest/**/task_3m.js'
     // ],
     // Patterns to exclude.
     exclude: [
@@ -32,12 +32,12 @@ exports.config = {
   
 
     capabilities: [
-        // {
+        {
 
         
-        //     browserName: 'chrome',
-        //     port: 4444
-        // }
+            browserName: 'chrome',
+            port: 4444
+        }
         // ,
         // {
         //     browserName: 'firefox',
@@ -45,10 +45,10 @@ exports.config = {
         // }
         // ,
       
-        {
-            browserName: 'MicrosoftEdge',
-            port: 4444
-        }
+        // {
+        //     browserName: 'MicrosoftEdge',
+        //     port: 4444
+        // }
     ],
         
 
