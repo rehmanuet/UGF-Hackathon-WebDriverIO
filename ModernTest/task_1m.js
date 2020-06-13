@@ -13,7 +13,7 @@ const {
 
 describe('Task 1 - Modern UFG Testing', function() {
 
-  it('should verify the display of different componenets', async () => {
+  it('should verify the display of different element', async () => {
 
     const eyes = new Eyes(new VisualGridRunner(10));
 

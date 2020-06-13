@@ -32,9 +32,9 @@ describe(`Task 3 - ${process.env.VERSION} Traditional`, function() {
 
         let review_text = $("em[id^='EM__']").getText(); // review_text = 4 Reviews  
 
-        let review_str = review_text.split(" "); // [4],[Reviews]
+        let review_str = review_text.split(" ");         // [4],[Reviews]
 
-        let review_text_count = review_str[0]; // review_text_count = 4
+        let review_text_count = review_str[0];           // review_text_count = 4
 
         let compare = (voted_star.length == review_text_count);
 
