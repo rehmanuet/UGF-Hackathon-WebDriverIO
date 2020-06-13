@@ -25,3 +25,76 @@
 "Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: 1, Test Name: Quantity Box is displayed on chrome browser, DOM Id: .numbers-row, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Shoe Name is displayed on chrome browser, DOM Id: #shoe_name, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Shoe Image is displayed on chrome browser, DOM Id: #shoe_img, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Review Count Text is displayed on chrome browser, DOM Id: [id^='EM__'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Product ID is displayed on chrome browser, DOM Id: #SMALL____84, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: New Price is displayed on chrome browser, DOM Id: .new_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Old Price is displayed on chrome browser, DOM Id: .old_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Discount is displayed on chrome browser, DOM Id: .old_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Add to Cart Button is displayed on chrome browser, DOM Id: btn_add_to_cart, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Quantity Box is displayed on chrome browser, DOM Id: .numbers-row, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Shoe Name is displayed on chrome browser, DOM Id: #shoe_name, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Shoe Name is displayed on chrome browser, DOM Id: #shoe_name, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Shoe Image is displayed on chrome browser, DOM Id: #shoe_img, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Review Count Text is displayed on chrome browser, DOM Id: [id^='EM__'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Product ID is displayed on chrome browser, DOM Id: #SMALL____84, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: New Price is displayed on chrome browser, DOM Id: .new_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Old Price is displayed on chrome browser, DOM Id: .old_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Discount is displayed on chrome browser, DOM Id: .old_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Add to Cart Button is displayed on chrome browser, DOM Id: btn_add_to_cart, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Quantity Box is displayed on chrome browser, DOM Id: .numbers-row, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Shoe Name is displayed on chrome browser, DOM Id: #shoe_name, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Shoe Image is displayed on chrome browser, DOM Id: #shoe_img, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Review Count Text is displayed on chrome browser, DOM Id: [id^='EM__'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Product ID is displayed on chrome browser, DOM Id: #SMALL____84, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: New Price is displayed on chrome browser, DOM Id: .new_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Old Price is displayed on chrome browser, DOM Id: .old_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Discount is displayed on chrome browser, DOM Id: .old_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Add to Cart Button is displayed on chrome browser, DOM Id: .btn_add_to_cart, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Quantity Box is displayed on chrome browser, DOM Id: .numbers-row, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Shoe Name is displayed on chrome browser, DOM Id: #shoe_name, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars count is be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Shoe Image is displayed on chrome browser, DOM Id: #shoe_img, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars count is be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Review Count Text is displayed on chrome browser, DOM Id: [id^='EM__'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars count is be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Product ID is displayed on chrome browser, DOM Id: #SMALL____84, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars count is be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: New Price is displayed on chrome browser, DOM Id: .new_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars count is be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Old Price is displayed on chrome browser, DOM Id: .old_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars count is be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Discount is displayed on chrome browser, DOM Id: .old_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars count is be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Add to Cart Button is displayed on chrome browser, DOM Id: .btn_add_to_cart, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars count is be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Quantity Box is displayed on chrome browser, DOM Id: .numbers-row, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars count is be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass

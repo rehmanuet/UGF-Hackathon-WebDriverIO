@@ -7,18 +7,15 @@ var assert = require('assert')
 describe(`Task 2 - ${process.env.VERSION} Traditional`, function () { 
 
 
-  
   Utils.dataProvider3.forEach(function (testData) {
 
-    it(`should filter black shoes correctly on ${browser.capabilities.browserName} with different viewports`, () => {
+    it(`${testData.name} ${(testData.expect === true) ? 'should' : "shouldn't"} displayed on `, () => {
       browser.setTimeout({ 'script': 160000 })
       browser.setWindowRect(0, 0, testData.width, testData.height)
       browser.url('')
-
       if( !testData.device.includes("Laptop")){
         $('#ti-filter').click()
         browser.pause("2000")
-
       }
 
       $('#colors__Black').click();
@@ -53,21 +50,19 @@ describe(`Task 2 - ${process.env.VERSION} Traditional`, function () {
       var review_text_count= review_str[0]             // review_text_count = 4
      
       var compare = (voted_star.length == review_text_count)
- 
-
 
     assert.strictEqual(
-    Utils.report.hackathonReporter(3, `Review stars should be equal to mentions review text`, browser.capabilities.browserName, testData.width, testData.height, testData.device, '[class="icon-star voted"]', compare, true), true)
+    Utils.report.hackathonReporter(3, `Review stars count is be equal to count mentioned in review text`, browser.capabilities.browserName, testData.width, testData.height, testData.device, '[class="icon-star voted"]', compare, true), true)
 
     });
 
-    it(`It should contain the starts vote starts`, () => {
+    it(`Small(S) should be the default selected size`, () => {
 
 
       let aa =$('.current')
     console.log(aa.getText())
-       // assert.strictEqual(
-       // Utils.report.hackathonReporter(2, `Add to Favorites/Compare/Cart buttons are displayed`, browser.capabilities.browserName, testData.width, testData.height, testData.device, '#UL____222', is, true), true)
+      //  assert.strictEqual(
+      //  Utils.report.hackathonReporter(2, `Add to Favorites/Compare/Cart buttons are displayed`, browser.capabilities.browserName, testData.width, testData.height, testData.device, '#UL____222', is, true), true)
    
        });
   });
