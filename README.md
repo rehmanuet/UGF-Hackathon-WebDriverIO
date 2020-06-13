@@ -3,7 +3,7 @@
 Submitter: Abdur Rehman Ashraf
 
 
-## Stack
+### Stack
 - WebdriverIO v5 with Jasmine Framework
 
 
@@ -14,6 +14,19 @@ Submitter: Abdur Rehman Ashraf
 |     <sub>Firefox</sub>   | <sub>76.0.1</sub>        | <sub>Tablet</sub>    | <sub>800x700</sub>   |
 | <sub>Edge Chromium</sub> | <sub>83.0.478.37</sub>   | <sub>Mobile</sub> | <sub>500x700</sub>   |
 
-
+#### Setup
+1- Clone the Repo
+2- npm install
+3- npm run task1:v1
 npm install -g webdriver-manager
-webdriver-manager start <pathtodriver> <<<<<Addded later
+webdriver-manager start 
+
+#### Task Status
+|    Approach  |    Task Completion |    Overall Time Taken  | 
+| ------------- | ------------- |------------- |
+|    <b> <sub>Traditional</sub> </b>   | <sub>All Tasks</sub>  | <sub>9 hours</sub>    |
+|     <b><sub>Modern</sub></b>   | <sub>All Tasks</sub>        | <sub> 2 hours</sub>    |
+
+
+
+
