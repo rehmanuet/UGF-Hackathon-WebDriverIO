@@ -4,12 +4,12 @@ var assert = require('assert')
 
 
 
-describe(`Task 2 - ${process.env.VERSION} Traditional`, function () { 
+describe(`Task 3 - ${process.env.VERSION} Traditional`, function () { 
 
 
-  Utils.dataProvider3.forEach(function (testData) {
+  Utils.dataProvider2.forEach(function (testData) {
 
-    it(`${testData.name} ${(testData.expect === true) ? 'should' : "shouldn't"} displayed on `, () => {
+    it(`Verify Product Details of first black shoes on ${browser.capabilities.browserName} browser`, () => {
       browser.setTimeout({ 'script': 160000 })
       browser.setWindowRect(0, 0, testData.width, testData.height)
       browser.url('')
@@ -28,42 +28,34 @@ describe(`Task 2 - ${process.env.VERSION} Traditional`, function () {
 
     $("#product_1" ).click()
 
-    let isDisplayed = $(testData.dom).isDisplayed()
+    
+    var voted_star = $$('[class="icon-star voted"]').filter(function (star) {
+    return star.isDisplayed(); });
+    var review_text= $("em[id^='EM__']").getText()   // review_text = 4 Reviews  
+    var review_str= review_text.split(" ")           // [4],[Reviews]
+    var review_text_count= review_str[0]             // review_text_count = 4
+    var compare = (voted_star.length == review_text_count)
+    assert.strictEqual( Utils.report.hackathonReporter(3, `Review stars count is be equal to count mentioned in review text`, browser.capabilities.browserName, testData.width, testData.height, testData.device, '[class="icon-star voted"]', compare, true), true)
 
-    assert.strictEqual(
-      Utils.report.hackathonReporter(1, `${testData.name} ${(testData.expect === true) ? 'is' : "isn't'"} displayed on ${browser.capabilities.browserName} browser`, browser.capabilities.browserName, testData.width, testData.height, testData.device, testData.dom, isDisplayed, testData.expect), testData.expect)
+    let size =$('.current').getText()
+    let size_compare= (size == 'Small (S)')
+    assert.strictEqual(Utils.report.hackathonReporter(3, `Small (S) should be the default selected size`, browser.capabilities.browserName, testData.width, testData.height, testData.device, '.current', size_compare, true), true)
+
+
+   let new_price =$('.new_price').getText()
+   let new_price_compare= (size == '$33.00')
+   assert.strictEqual(Utils.report.hackathonReporter(3, `'$33.00 should be new price of first black shoes`, browser.capabilities.browserName, testData.width, testData.height, testData.device, '.current', size_compare, true), true)
+   
+   let old_price =$('.old_price').getText()
+   let old_price_compare= (size == '$48.00')
+   assert.strictEqual(Utils.report.hackathonReporter(3, `'$48.00 should be old price of first black shoes`, browser.capabilities.browserName, testData.width, testData.height, testData.device, '.current', size_compare, true), true)
+
+   let product_id =$('#SMALL____84').isDisplayed()
+   assert.strictEqual(Utils.report.hackathonReporter(3, `'Product ID should be displayed`, browser.capabilities.browserName, testData.width, testData.height, testData.device, '.current', product_id, true), true)
+
+
   });
 
 
- 
-
-    
-    it(`should contain equal number of voted review stars as of written in review text`, () => {
-
-
-   var voted_star = $$('[class="icon-star voted"]').filter(function (star) {
-    return star.isDisplayed();
-   });
-
-      var review_text= $("em[id^='EM__']").getText()   // review_text = 4 Reviews  
-      var review_str= review_text.split(" ")           // [4],[Reviews]
-      var review_text_count= review_str[0]             // review_text_count = 4
-     
-      var compare = (voted_star.length == review_text_count)
-
-    assert.strictEqual(
-    Utils.report.hackathonReporter(3, `Review stars count is be equal to count mentioned in review text`, browser.capabilities.browserName, testData.width, testData.height, testData.device, '[class="icon-star voted"]', compare, true), true)
-
-    });
-
-    it(`Small(S) should be the default selected size`, () => {
-
-
-      let aa =$('.current')
-    console.log(aa.getText())
-      //  assert.strictEqual(
-      //  Utils.report.hackathonReporter(2, `Add to Favorites/Compare/Cart buttons are displayed`, browser.capabilities.browserName, testData.width, testData.height, testData.device, '#UL____222', is, true), true)
-   
-       });
   });
 });
