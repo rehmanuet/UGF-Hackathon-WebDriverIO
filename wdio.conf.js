@@ -32,12 +32,12 @@ exports.config = {
   
 
     capabilities: [
-        {
+        // {
 
         
-            browserName: 'chrome',
-            port: 4444
-        }
+        //     browserName: 'chrome',
+        //     port: 4444
+        // }
         // ,
         // {
         //     browserName: 'firefox',
@@ -45,15 +45,13 @@ exports.config = {
         // }
         // ,
       
-        // {
-        //     browserName: 'MicrosoftEdge',
-        //     port: 4444
-        // }
+        {
+            browserName: 'MicrosoftEdge',
+            port: 4444
+        }
     ],
         
-    // Define all options that are relevant for the WebdriverIO instance here
-    //
-    // Level of logging verbosity: trace | debug | info | warn | error | silent
+
     logLevel: 'error',
     //
     // Set specific log levels per logger
