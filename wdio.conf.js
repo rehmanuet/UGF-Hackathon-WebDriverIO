@@ -18,7 +18,7 @@ exports.config = {
 
 
     specs: [
-        './test/**/task_2.js'
+        './test/**/task_3.js'
     ],
     // specs: [
     //     './ModernTest/**/task_2m.js'
@@ -32,25 +32,25 @@ exports.config = {
   
 
     capabilities: [
-      
         {
-            browserName: 'MicrosoftEdge',
+
+        
+            browserName: 'chrome',
             port: 4444
         }
-    ],
-
-    // ===================
-    // Test Configurations
-    // ===================  // {
-        //     browserName: 'chrome',
-        //     port: 4444
-        // }
         // ,
         // {
         //     browserName: 'firefox',
         //     port: 4444
         // }
         // ,
+      
+        // {
+        //     browserName: 'MicrosoftEdge',
+        //     port: 4444
+        // }
+    ],
+        
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent

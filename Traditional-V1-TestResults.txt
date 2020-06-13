@@ -1,18 +1,27 @@
-"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: firefox, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: firefox, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 1, Test Name: Shoe Name is displayed on chrome browser, DOM Id: #shoe_name, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Shoe Image is displayed on chrome browser, DOM Id: #shoe_img, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Review Count Text is displayed on chrome browser, DOM Id: [id^='EM__'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Product ID is displayed on chrome browser, DOM Id: #SMALL____84, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Product Description is displayed on chrome browser, DOM Id: #BR____85, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Product Description is displayed on chrome browser, DOM Id: #BR____85, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Product Description is displayed on chrome browser, DOM Id: br[id^='BR____85'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Product Description is displayed on chrome browser, DOM Id: p[id='P____83'] br, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: New Price is displayed on chrome browser, DOM Id: .new_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Old Price is displayed on chrome browser, DOM Id: .old_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Discount is displayed on chrome browser, DOM Id: .old_price, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Add to Cart Button is displayed on chrome browser, DOM Id: btn_add_to_cart, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Quantity Box is displayed on chrome browser, DOM Id: .numbers-row, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars should be equal to mentions review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass

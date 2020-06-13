@@ -32,10 +32,23 @@ var dataProvider2 = [
     { width: 1200, height: 700, device: "Laptop" },
     { width: 800, height: 700, device: "Tablet" },
     { width: 500, height: 700, device: "Mobile" },
-  
+  ];
 
-    
+
+  var dataProvider3 = [
+//     { width: 1200, height: 700, device: "Laptop", dom: "#shoe_name", name: "Shoe Name", expect: true },
+//     { width: 1200, height: 700, device: "Laptop", dom: "#shoe_img", name: "Shoe Image", expect: true },
+//     { width: 1200, height: 700, device: "Laptop", dom: "[id^='EM__']", name: "Review Count Text", expect: true },
+//     { width: 1200, height: 700, device: "Laptop", dom: "#SMALL____84", name: "Product ID", expect: true },
+       { width: 1200, height: 700, device: "Laptop", dom: ".new_price", name: "New Price", expect: true },
+       { width: 1200, height: 700, device: "Laptop", dom: ".old_price", name: "Old Price", expect: true },
+       { width: 1200, height: 700, device: "Laptop", dom: ".old_price", name: "Discount", expect: true },
+       { width: 1200, height: 700, device: "Laptop", dom: "btn_add_to_cart", name: "Add to Cart Button", expect: true },
+       { width: 1200, height: 700, device: "Laptop", dom: ".numbers-row", name: "Quantity Box", expect: true },
+
 ];
+
+
 var report = {
 
     hackathonReporter(task, testName, browsers, viewportw, viewporth, device, domId, comparisonResult, expectedResult) {
@@ -52,5 +65,6 @@ var report = {
 module.exports = {
     report,
     dataProvider,
-    dataProvider2
+    dataProvider2,
+    dataProvider3
 };
