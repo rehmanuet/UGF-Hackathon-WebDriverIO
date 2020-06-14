@@ -1,5 +1,3 @@
-const Utils = require('../helper/utils.js')
-
 var assert = require('assert')
 const {
   By,
