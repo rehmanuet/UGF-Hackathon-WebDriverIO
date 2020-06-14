@@ -17,17 +17,17 @@ describe(`Task 2 - ${process.env.VERSION} Traditional`, function()
      * @param testData.device Name of the device eg. Laptop
      * @param browser.capabilities.browserName Name of the browser on which test is executed
      */
-    
+
     it(`should filter black shoes correctly on ${browser.capabilities.browserName} with different viewports`,() =>
       {
 
         // Sets the Width and Hieght
         browser.setWindowRect(0, 0, testData.width, testData.height)
 
-        // Gets the URI directly from wdio.conf.js
+        // Gets the URI directly from wdio.conf.js via V1 or V2
         browser.url('')
 
-        // If device is not Laptop, Then click Filter button that'll be showed-up Tablet & Mobile
+        // If device is not Laptop, Then click Filter button that'll be showed-up in Tablet & Mobile devices only
         if (!testData.device.includes("Laptop"))
         {
           $('#ti-filter').click()
@@ -37,13 +37,13 @@ describe(`Task 2 - ${process.env.VERSION} Traditional`, function()
         $('#colors__Black').click();
         $('#filterBtn').click()
         
-        // Gets all the product after filteration and check for their visiblity
+        // Gets all the product after filteration i.e 2 Black Shoe and check for their visiblity
         let results = $$('.grid_item').filter(function(item)
         {
           return item.isDisplayed();
         });
 
-        // Assertion of the outpus and HackathonReporter for test result reporting
+        // Assertion of the output and HackathonReporter for test result reporting
         assert.strictEqual(Utils.report.hackathonReporter(2,
           `${results.length} Items have been available after filtering black shoe displayed`,
           browser.capabilities.browserName, testData.width, testData.height, testData.device,
@@ -52,12 +52,17 @@ describe(`Task 2 - ${process.env.VERSION} Traditional`, function()
 
     it(`should display Add to Favorites/Compare/Cart buttons on ${browser.capabilities.browserName} with different viewports`,() =>
       {
+        
+        // If device is Laptop, Then hover over first product to verify Add to Favorites/Compare/Cart buttons visibilty
         if (testData.device.includes("Laptop"))
         {
           browser.execute(() =>{$("#product_1").mouseover();})
         }
-
+        
+        // CHecks the Add to Favorites/Compare/Cart buttons visibility
         let is = $('#UL____222').isDisplayed();
+
+        // Assertion of the output and HackathonReporter for test result reporting
         assert.strictEqual(Utils.report.hackathonReporter(2,
           `Add to Favorites/Compare/Cart buttons are displayed`, browser.capabilities
           .browserName, testData.width, testData.height, testData.device, '#UL____222', is, true
