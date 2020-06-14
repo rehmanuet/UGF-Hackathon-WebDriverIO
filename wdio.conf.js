@@ -58,9 +58,9 @@ exports.config = {
         browserName: 'chrome',
         }
 
-       ,{
-        browserName: 'firefox',
-        }
+    //    ,{
+    //     browserName: 'firefox',
+    //     }
         // ,{
         //     browserName: 'MicrosoftEdge',
         // }

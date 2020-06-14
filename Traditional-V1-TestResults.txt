@@ -253,3 +253,24 @@
 "Task: 1, Test Name: View Grid Button isn't' displayed on firefox browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Pass
 "Task: 1, Test Name: View List Button isn't' displayed on firefox browser, DOM Id: [id^='I__tiviewlist__20'], Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Pass
 "Task: 1, Test Name: Wishlist Icon isn't' displayed on firefox browser, DOM Id: #A__wishlist__52, Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 3, Test Name: Review stars count should be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Small (S) should be the default selected size, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars count should be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: Small (S) should be the default selected size, DOM Id: .current, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: Review stars count should be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 3, Test Name: Small (S) should be the default selected size, DOM Id: .current, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass

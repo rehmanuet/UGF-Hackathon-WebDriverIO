@@ -1,4 +1,4 @@
-const Utils = require('../utils/utils.js')
+const Utils = require('../helper/utils.js')
 var assert = require('assert')
 describe(`Task 2 - ${process.env.VERSION} Traditional`, function()
 {
