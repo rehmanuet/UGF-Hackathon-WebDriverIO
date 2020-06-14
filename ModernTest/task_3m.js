@@ -21,9 +21,11 @@ describe(`Task 3 - Modern UFG Testing`, function() {
 
   it(`should navigate first black shoe details page and verify the product details. `, async function() {
 
+    //Initializes the UGF runner  with max 10 instances
     const runner = new VisualGridRunner(10);
     eyes = new Eyes(runner);
 
+    // Sets the necessary configuration
     const configuration = new Configuration();
     configuration.setApiKey("RhAPSyd7qQndu110jqybVopu4hF9w3KxBru4wQYU8Fwyg110");
     configuration.setBatch("UFG Hackathon")
@@ -35,7 +37,6 @@ describe(`Task 3 - Modern UFG Testing`, function() {
     //Chrome browser with two different viewports (Laptop, Tablet)
     configuration.addBrowser(1200, 700, BrowserType.CHROME);
     configuration.addBrowser(768, 700, BrowserType.CHROME);
-
 
     //Firefox browser with two different viewports (Laptop, Tablet)
     configuration.addBrowser(1200, 700, BrowserType.FIREFOX);
@@ -64,11 +65,9 @@ describe(`Task 3 - Modern UFG Testing`, function() {
     const product_1 = await browser.$("#product_1");
     await product_1.click();
 
+    // Takes the Screenshot of selected regions only for Visual Testing
     await eyes.check('Product Details test', Target.window());
 
     await eyes.closeAsync();
-
-
   });
-
 });
