@@ -18,7 +18,7 @@ describe(`Task 2 - ${process.env.VERSION} Traditional`, function()
      * @param browser.capabilities.browserName Name of the browser on which test is executed
      */
 
-    it(`should filter black shoes correctly on ${browser.capabilities.browserName} with different viewports`,() =>
+    it(`should filter black shoes correctly on ${browser.capabilities.browserName} with different ${testData.device} device`,() =>
       {
 
         // Sets the Width and Height
@@ -50,7 +50,7 @@ describe(`Task 2 - ${process.env.VERSION} Traditional`, function()
           '#colors__Black', results.length, 2), 2)
       });
 
-    it(`should display Add to Favorites/Compare/Cart buttons on ${browser.capabilities.browserName} with different viewports`,() =>
+    it(`should display Add to Favorites/Compare/Cart buttons on ${browser.capabilities.browserName} with different ${testData.device} device`,() =>
       {
         
         // If device is Laptop, Then hover over first product to verify Add to Favorites/Compare/Cart buttons visibilty
