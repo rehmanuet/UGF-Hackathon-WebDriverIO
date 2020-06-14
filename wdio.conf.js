@@ -1,5 +1,3 @@
-
-// let baseUrl = process.env.VERSION ? 'https://demo.applitools.com/gridHackathonV2.html':'https://demo.applitools.com/gridHackathonV1.html' 
 let baseUrl
 if (process.env.VERSION.trim() === 'V1') {
      baseUrl = 'https://demo.applitools.com/gridHackathonV1.html'
@@ -7,51 +5,75 @@ if (process.env.VERSION.trim() === 'V1') {
      baseUrl = 'https://demo.applitools.com/gridHackathonV2.html'
 }
 
-
 exports.config = {
-
+    //
+    // ====================
+    // Runner Configuration
+    // ====================
+    //
+    // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
+    // on a remote machine).
     runner: 'local',
- 
-
-    path: '/wd/hub',
-    // path: '/',
-
-
+    //
+    // ==================
+    // Specify Test Files
+    // ==================
+    // Define which test specs should run. The pattern is relative to the directory
+    // from which `wdio` was called. Notice that, if you are calling `wdio` from an
+    // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
+    // directory is where your package.json resides, so `wdio` will be called from there.
+    //
     specs: [
-        './traditionalTest/**/task_3.js'
+        './TraditionalTest/**/*.js'
     ],
-    // specs: [
-    //     './ModernTest/**/task_3m.js'
-    // ],
     // Patterns to exclude.
     exclude: [
+        // 'path/to/excluded/files'
     ],
-    
-
+    //
+    // ============
+    // Capabilities
+    // ============
+    // Define your capabilities here. WebdriverIO can run multiple capabilities at the same
+    // time. Depending on the number of capabilities, WebdriverIO launches several test
+    // sessions. Within your capabilities you can overwrite the spec and exclude options in
+    // order to group specific specs to a specific capability.
+    //
+    // First, you can define how many instances should be started at the same time. Let's
+    // say you have 3 different capabilities (Chrome, Firefox, and Safari) and you have
+    // set maxInstances to 1; wdio will spawn 3 processes. Therefore, if you have 10 spec
+    // files and you set maxInstances to 10, all spec files will get tested at the same time
+    // and 30 processes will get spawned. The property handles how many capabilities
+    // from the same test should run tests.
+    //
     maxInstances: 10,
-  
-
+    //
+    // If you have trouble getting all important capabilities together, check out the
+    // Sauce Labs platform configurator - a great tool to configure your capabilities:
+    // https://docs.saucelabs.com/reference/platforms-configurator
+    //
     capabilities: [
+
         {
-
-        
-            browserName: 'chrome',
-            port: 4444
+        browserName: 'chrome',
         }
-        // ,
-        // {
-        //     browserName: 'firefox',
-        //     port: 4444
-        // }
-        // ,
-      
-        // {
-        //     browserName: 'MicrosoftEdge',
-        //     port: 4444
-        // }
-    ],
-        
 
+       ,{
+        browserName: 'firefox',
+        }
+        // ,{
+        //     browserName: 'MicrosoftEdge',
+        // }
+    
+],
+
+    //
+    // ===================
+    // Test Configurations
+    // ===================
+    // Define all options that are relevant for the WebdriverIO instance here
+    //
+    // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'error',
     //
     // Set specific log levels per logger
@@ -77,7 +99,6 @@ exports.config = {
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
     baseUrl: baseUrl,
-    // baseUrl: 'https://demo.applitools.com/gridHackathonV1.html',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -94,35 +115,48 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: [
-        ['selenium-standalone'
-            // , {
-            //     logPath: 'logs',
-            //     installArgs: {
-            //         drivers: {
-            //             chrome: { version: '83.0.4103.97' },
-            //             firefox: { version: '0.26.0' },
-            //             MicrosoftEdge: { version: '83.0.478.37' }
-            //         }
-            //     },
-            //     args: {
-            //         drivers: {
-            //             chrome: { version: '83.0.4103.97' },
-            //             firefox: { version: '0.26.0' },
-            //             MicrosoftEdge: { version: '83.0.478.37' }
-            //         }
-            //     },
-            // }
-        ]
+        ['selenium-standalone', {
+            logPath: 'logs',
+            version : "3.141.59",
+    baseURL : "https://selenium-release.storage.googleapis.com",
+            installArgs: {
+                drivers: {
+                    chrome: { version: '83.0.4103.39' },
+                    firefox: { version: '0.26.0' },
+                    MicrosoftEdge: { version: '83.0.478.45' }
+                }
+            },
+            args: {
+                drivers: {
+                    chrome: { version: '83.0.4103.39' },
+                    firefox: { version: '0.26.0' },
+                    MicrosoftEdge: { version: '83.0.478.45' }
+                }
+            },
+        }]
     ],
-
    
+    // Framework you want to run your specs with.
+    // The following are supported: Mocha, Jasmine, and Cucumber
+    // see also: https://webdriver.io/docs/frameworks.html
+    //
+    // Make sure you have the wdio adapter package for the specific framework installed
+    // before running any tests.
     framework: 'jasmine',
-
-
+    //
+    // The number of times to retry the entire specfile when it fails as a whole
+    // specFileRetries: 1,
+    //
+    // Whether or not retried specfiles should be retried immediately or deferred to the end of the queue
+    // specFileRetriesDeferred: false,
+    //
+    // Test reporter for stdout.
+    // The only one supported by default is 'dot'
+    // see also: https://webdriver.io/docs/dot-reporter.html
     reporters: ['spec'],
 
 
-
+    
     //
     // Options to be passed to Jasmine.
     jasmineNodeOpts: {
@@ -132,11 +166,11 @@ exports.config = {
         // The Jasmine framework allows interception of each assertion in order to log the state of the application
         // or website depending on the result. For example, it is pretty handy to take a screenshot every time
         // an assertion fails.
-        expectationResultHandler: function (passed, assertion) {
+        expectationResultHandler: function(passed, assertion) {
             // do something
         }
     },
-
+    
     //
     // =====
     // Hooks
@@ -266,4 +300,4 @@ exports.config = {
     */
     //onReload: function(oldSessionId, newSessionId) {
     //}
-};
+}
