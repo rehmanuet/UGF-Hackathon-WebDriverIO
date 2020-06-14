@@ -18,7 +18,7 @@ describe('Task 1 - Modern UFG Testing', function() {
 
   it('should verify the display of different element', async () => {
    
-      //Initializes the UGF runner  with max 10 instances
+      //Initializes the UGF runner with max 10 instances
       const runner = new VisualGridRunner(10);
       eyes = new Eyes(runner);
 

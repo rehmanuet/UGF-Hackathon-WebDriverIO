@@ -21,7 +21,7 @@ describe(`Task 3 - Modern UFG Testing`, function() {
 
   it(`should navigate first black shoe details page and verify the product details. `, async function() {
 
-    //Initializes the UGF runner  with max 10 instances
+    //Initializes the UGF runner with max 10 instances
     const runner = new VisualGridRunner(10);
     eyes = new Eyes(runner);
 
