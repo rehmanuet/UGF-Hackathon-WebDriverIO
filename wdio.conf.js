@@ -18,7 +18,7 @@ exports.config = {
 
 
     specs: [
-        './test/**/*.js'
+        './traditionalTest/**/task_3.js'
     ],
     // specs: [
     //     './ModernTest/**/task_3m.js'
@@ -115,25 +115,10 @@ exports.config = {
         ]
     ],
 
-    // Framework you want to run your specs with.
-    // The following are supported: Mocha, Jasmine, and Cucumber
-    // see also: https://webdriver.io/docs/frameworks.html
-    //
-    // Make sure you have the wdio adapter package for the specific framework installed
-    // before running any tests.
+   
     framework: 'jasmine',
 
 
-    //
-    // The number of times to retry the entire specfile when it fails as a whole
-    // specFileRetries: 1,
-    //
-    // Whether or not retried specfiles should be retried immediately or deferred to the end of the queue
-    // specFileRetriesDeferred: false,
-    //
-    // Test reporter for stdout.
-    // The only one supported by default is 'dot'
-    // see also: https://webdriver.io/docs/dot-reporter.html
     reporters: ['spec'],
 
 

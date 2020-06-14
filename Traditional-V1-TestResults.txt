@@ -43,3 +43,28 @@
 "Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Pass
 "Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Pass
 "Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 3, Test Name: Review stars count should be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Small (S) should be the default selected size, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars count should be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: Small (S) should be the default selected size, DOM Id: .current, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: Review stars count should be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Small (S) should be the default selected size, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Review stars count should be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: Small (S) should be the default selected size, DOM Id: .current, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 3, Test Name: Review stars count should be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 3, Test Name: Small (S) should be the default selected size, DOM Id: .current, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
