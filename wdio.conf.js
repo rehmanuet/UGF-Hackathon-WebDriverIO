@@ -16,7 +16,7 @@ exports.config = {
     exclude: [
     ],
 
-    maxInstances: 10,
+    maxInstances: 1,
 
     capabilities: [
         {
@@ -24,8 +24,8 @@ exports.config = {
         }
     //    ,{
     //     browserName: 'firefox',
-    //     }
-    //    ,{
+    //     },
+    //    {
     //     browserName: 'MicrosoftEdge',
     //     }
     

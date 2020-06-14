@@ -1,3 +1,99 @@
+"Task: 1, Test Name: Header Menu is displayed on chrome browser, DOM Id: #UL____21, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Bar is displayed on chrome browser, DOM Id: #DIV__customsear__41, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Side Filter is displayed on chrome browser, DOM Id: #sidebar_filters, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Wishlist Icon is displayed on chrome browser, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Grid Icon is displayed on chrome browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: List Icon is displayed on chrome browser, DOM Id: [id^='I__tiviewlist__20'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Cart Button Number is displayed on chrome browser, DOM Id: #A__cartbt__49 strong, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Filter Button isn't displayed on chrome browser, DOM Id: #ti-filter, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 1, Test Name: Filter Text isn't displayed on chrome browser, DOM Id: [id^='SPAN____20'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 1, Test Name: Search Bar is displayed on chrome browser, DOM Id: #DIV__customsear__41, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 1, Test Name: Product Icons is displayed on chrome browser, DOM Id: #UL____269, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 1, Test Name: Filter Button is displayed on chrome browser, DOM Id: #ti-filter, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 1, Test Name: Filter Text is displayed on chrome browser, DOM Id: [id^='SPAN____20'], Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 1, Test Name: Cart Button Number is displayed on chrome browser, DOM Id: #A__cartbt__49 strong, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 1, Test Name: Wishlist Icon isn't displayed on chrome browser, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 1, Test Name: View Grid Button isn't displayed on chrome browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 1, Test Name: View List Button isn't displayed on chrome browser, DOM Id: [id^='I__tiviewlist__20'], Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 1, Test Name: Mobile Search Button is displayed on chrome browser, DOM Id: .btn_search_mob, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 1, Test Name: Add to Favt/Cart/Compare Icon is displayed on chrome browser, DOM Id: #UL____269, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Filter Icon is displayed on chrome browser, DOM Id: #ti-filter, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 1, Test Name: Search Bar isn't displayed on chrome browser, DOM Id: #DIV__customsear__41, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Cart Button Number isn't displayed on chrome browser, DOM Id: #A__cartbt__49 strong, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Footer's Quick Link uncollapsed isn't displayed on chrome browser, DOM Id: [id^='DIV__collgcolmd__42'] .opened, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: View Grid Button isn't displayed on chrome browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: View List Button isn't displayed on chrome browser, DOM Id: [id^='I__tiviewlist__20'], Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Wishlist Icon isn't displayed on chrome browser, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Header Menu is displayed on firefox browser, DOM Id: #UL____21, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Bar is displayed on firefox browser, DOM Id: #DIV__customsear__41, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Side Filter is displayed on firefox browser, DOM Id: #sidebar_filters, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Wishlist Icon is displayed on firefox browser, DOM Id: #A__wishlist__52, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Grid Icon is displayed on firefox browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: List Icon is displayed on firefox browser, DOM Id: [id^='I__tiviewlist__20'], Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Cart Button Number is displayed on firefox browser, DOM Id: #A__cartbt__49 strong, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Filter Button isn't displayed on firefox browser, DOM Id: #ti-filter, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 1, Test Name: Filter Text isn't displayed on firefox browser, DOM Id: [id^='SPAN____20'], Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 1, Test Name: Search Bar is displayed on firefox browser, DOM Id: #DIV__customsear__41, Browser: firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 1, Test Name: Product Icons is displayed on firefox browser, DOM Id: #UL____269, Browser: firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 1, Test Name: Filter Button is displayed on firefox browser, DOM Id: #ti-filter, Browser: firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 1, Test Name: Filter Text is displayed on firefox browser, DOM Id: [id^='SPAN____20'], Browser: firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 1, Test Name: Cart Button Number is displayed on firefox browser, DOM Id: #A__cartbt__49 strong, Browser: firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 1, Test Name: Wishlist Icon isn't displayed on firefox browser, DOM Id: #A__wishlist__52, Browser: firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 1, Test Name: View Grid Button isn't displayed on firefox browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 1, Test Name: View List Button isn't displayed on firefox browser, DOM Id: [id^='I__tiviewlist__20'], Browser: firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 1, Test Name: Mobile Search Button is displayed on firefox browser, DOM Id: .btn_search_mob, Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 1, Test Name: Add to Favt/Cart/Compare Icon is displayed on firefox browser, DOM Id: #UL____269, Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Filter Icon is displayed on firefox browser, DOM Id: #ti-filter, Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 1, Test Name: Search Bar isn't displayed on firefox browser, DOM Id: #DIV__customsear__41, Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Cart Button Number isn't displayed on firefox browser, DOM Id: #A__cartbt__49 strong, Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Footer's Quick Link uncollapsed isn't displayed on firefox browser, DOM Id: [id^='DIV__collgcolmd__42'] .opened, Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: View Grid Button isn't displayed on firefox browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: View List Button isn't displayed on firefox browser, DOM Id: [id^='I__tiviewlist__20'], Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Wishlist Icon isn't displayed on firefox browser, DOM Id: #A__wishlist__52, Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Header Menu is displayed on msedge browser, DOM Id: #UL____21, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Bar is displayed on msedge browser, DOM Id: #DIV__customsear__41, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Side Filter is displayed on msedge browser, DOM Id: #sidebar_filters, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Wishlist Icon is displayed on msedge browser, DOM Id: #A__wishlist__52, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Grid Icon is displayed on msedge browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: List Icon is displayed on msedge browser, DOM Id: [id^='I__tiviewlist__20'], Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Cart Button Number is displayed on msedge browser, DOM Id: #A__cartbt__49 strong, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Filter Button isn't displayed on msedge browser, DOM Id: #ti-filter, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 1, Test Name: Filter Text isn't displayed on msedge browser, DOM Id: [id^='SPAN____20'], Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 1, Test Name: Search Bar is displayed on msedge browser, DOM Id: #DIV__customsear__41, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 1, Test Name: Product Icons is displayed on msedge browser, DOM Id: #UL____269, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 1, Test Name: Filter Button is displayed on msedge browser, DOM Id: #ti-filter, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 1, Test Name: Filter Text is displayed on msedge browser, DOM Id: [id^='SPAN____20'], Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 1, Test Name: Cart Button Number is displayed on msedge browser, DOM Id: #A__cartbt__49 strong, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 1, Test Name: Wishlist Icon isn't displayed on msedge browser, DOM Id: #A__wishlist__52, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 1, Test Name: View Grid Button isn't displayed on msedge browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 1, Test Name: View List Button isn't displayed on msedge browser, DOM Id: [id^='I__tiviewlist__20'], Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 1, Test Name: Mobile Search Button is displayed on msedge browser, DOM Id: .btn_search_mob, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 1, Test Name: Add to Favt/Cart/Compare Icon is displayed on msedge browser, DOM Id: #UL____269, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Filter Icon is displayed on msedge browser, DOM Id: #ti-filter, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 1, Test Name: Search Bar isn't displayed on msedge browser, DOM Id: #DIV__customsear__41, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Cart Button Number isn't displayed on msedge browser, DOM Id: #A__cartbt__49 strong, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Footer's Quick Link uncollapsed isn't displayed on msedge browser, DOM Id: [id^='DIV__collgcolmd__42'] .opened, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: View Grid Button isn't displayed on msedge browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: View List Button isn't displayed on msedge browser, DOM Id: [id^='I__tiviewlist__20'], Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 1, Test Name: Wishlist Icon isn't displayed on msedge browser, DOM Id: #A__wishlist__52, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 2, Test Name: 3 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 2, Test Name: 3 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 2, Test Name: 3 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 2, Test Name: 3 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 2, Test Name: 3 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 2, Test Name: 3 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: firefox, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 2, Test Name: 3 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Fail
+"Task: 2, Test Name: 3 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Fail
+"Task: 2, Test Name: 3 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
 "Task: 3, Test Name: Review stars count should be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
 "Task: 3, Test Name: Small (S) should be the default selected size, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
 "Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
@@ -43,70 +139,3 @@
 "Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
 "Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
 "Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: 3, Test Name: Review stars count should be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 3, Test Name: Small (S) should be the default selected size, DOM Id: .current, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 3, Test Name: Review stars count should be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 3, Test Name: Small (S) should be the default selected size, DOM Id: .current, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Fail
-"Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Fail
-"Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Fail
-"Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 3, Test Name: Review stars count should be equal to count mentioned in review text, DOM Id: [class="icon-star voted"], Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: 3, Test Name: Small (S) should be the default selected size, DOM Id: .current, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 3, Test Name: '$33.00 should be new price of first black shoes, DOM Id: .current, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 3, Test Name: '$48.00 should be old price of first black shoes, DOM Id: .current, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 3, Test Name: 'Product ID should be displayed, DOM Id: .current, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: 1, Test Name: Header Menu is displayed on chrome browser, DOM Id: #UL____21, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: Search Bar is displayed on chrome browser, DOM Id: #DIV__customsear__41, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: Side Filter is displayed on chrome browser, DOM Id: #sidebar_filters, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: Wishlist Icon is displayed on chrome browser, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: Grid Icon is displayed on chrome browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: List Icon is displayed on chrome browser, DOM Id: [id^='I__tiviewlist__20'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: Cart Button Number is displayed on chrome browser, DOM Id: #A__cartbt__49 strong, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: Filter Button isn't' displayed on chrome browser, DOM Id: #ti-filter, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: 1, Test Name: Filter Text isn't' displayed on chrome browser, DOM Id: [id^='SPAN____20'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: 1, Test Name: Search Bar is displayed on chrome browser, DOM Id: #DIV__customsear__41, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 1, Test Name: Product Icons is displayed on chrome browser, DOM Id: #UL____269, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
-"Task: 1, Test Name: Filter Button is displayed on chrome browser, DOM Id: #ti-filter, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 1, Test Name: Filter Text is displayed on chrome browser, DOM Id: [id^='SPAN____20'], Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 1, Test Name: Cart Button Number is displayed on chrome browser, DOM Id: #A__cartbt__49 strong, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 1, Test Name: Wishlist Icon isn't' displayed on chrome browser, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
-"Task: 1, Test Name: View Grid Button isn't' displayed on chrome browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
-"Task: 1, Test Name: View List Button isn't' displayed on chrome browser, DOM Id: [id^='I__tiviewlist__20'], Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
-"Task: 1, Test Name: Mobile Search Button is displayed on chrome browser, DOM Id: .btn_search_mob, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: 1, Test Name: Add to Favt/Cart/Compare Icon is displayed on chrome browser, DOM Id: #UL____269, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: Filter Icon is displayed on chrome browser, DOM Id: #ti-filter, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: 1, Test Name: Search Bar isn't' displayed on chrome browser, DOM Id: #DIV__customsear__41, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: Cart Button Number isn't' displayed on chrome browser, DOM Id: #A__cartbt__49 strong, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: Footer's Quick Link uncollapsed isn't' displayed on chrome browser, DOM Id: [id^='DIV__collgcolmd__42'] .opened, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: View Grid Button isn't' displayed on chrome browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: View List Button isn't' displayed on chrome browser, DOM Id: [id^='I__tiviewlist__20'], Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: Wishlist Icon isn't' displayed on chrome browser, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: Header Menu is displayed on chrome browser, DOM Id: #UL____21, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: Search Bar is displayed on chrome browser, DOM Id: #DIV__customsear__41, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: Side Filter is displayed on chrome browser, DOM Id: #sidebar_filters, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: Wishlist Icon is displayed on chrome browser, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: Grid Icon is displayed on chrome browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: List Icon is displayed on chrome browser, DOM Id: [id^='I__tiviewlist__20'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: Cart Button Number is displayed on chrome browser, DOM Id: #A__cartbt__49 strong, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
-"Task: 1, Test Name: Filter Button isn't' displayed on chrome browser, DOM Id: #ti-filter, Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: 1, Test Name: Filter Text isn't' displayed on chrome browser, DOM Id: [id^='SPAN____20'], Browser: chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
-"Task: 1, Test Name: Search Bar is displayed on chrome browser, DOM Id: #DIV__customsear__41, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 1, Test Name: Product Icons is displayed on chrome browser, DOM Id: #UL____269, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
-"Task: 1, Test Name: Filter Button is displayed on chrome browser, DOM Id: #ti-filter, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 1, Test Name: Filter Text is displayed on chrome browser, DOM Id: [id^='SPAN____20'], Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 1, Test Name: Cart Button Number is displayed on chrome browser, DOM Id: #A__cartbt__49 strong, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Pass
-"Task: 1, Test Name: Wishlist Icon isn't' displayed on chrome browser, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
-"Task: 1, Test Name: View Grid Button isn't' displayed on chrome browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
-"Task: 1, Test Name: View List Button isn't' displayed on chrome browser, DOM Id: [id^='I__tiviewlist__20'], Browser: chrome, Viewport: 800x700, Device: Tablet, Status: Fail
-"Task: 1, Test Name: Mobile Search Button is displayed on chrome browser, DOM Id: .btn_search_mob, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: 1, Test Name: Add to Favt/Cart/Compare Icon is displayed on chrome browser, DOM Id: #UL____269, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: Filter Icon is displayed on chrome browser, DOM Id: #ti-filter, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
-"Task: 1, Test Name: Search Bar isn't' displayed on chrome browser, DOM Id: #DIV__customsear__41, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: Cart Button Number isn't' displayed on chrome browser, DOM Id: #A__cartbt__49 strong, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: Footer's Quick Link uncollapsed isn't' displayed on chrome browser, DOM Id: [id^='DIV__collgcolmd__42'] .opened, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: View Grid Button isn't' displayed on chrome browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: View List Button isn't' displayed on chrome browser, DOM Id: [id^='I__tiviewlist__20'], Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
-"Task: 1, Test Name: Wishlist Icon isn't' displayed on chrome browser, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Fail
