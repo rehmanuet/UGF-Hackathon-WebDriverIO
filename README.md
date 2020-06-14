@@ -1,28 +1,9 @@
 # Applitools Ultrafast Grid Hackathon
-
 Submitter: Abdur Rehman Ashraf
-
 
 ## Stack
 - WebdriverIO v5 with Jasmine Framework
 
-
-#### Browser & Viewport
-|    Browsers   |    Version    |    Device    |   Viewport    |
-| ------------- | ------------- |------------- | ------------- |
-|     <sub>Chrome</sub>    | <sub>83.0.4103.61</sub>  | <sub>Laptop</sub>    | <sub>1200x700</sub>  |
-|     <sub>Firefox</sub>   | <sub>76.0.1</sub>        | <sub>Tablet</sub>    | <sub>800x700</sub>   |
-| <sub>Edge Chromium</sub> | <sub>83.0.478.37</sub>   | <sub>Mobile</sub> | <sub>500x700</sub>   |
-
-#### Task Status
-|    Approach  |    Task Completion |    Overall Time Taken  | 
-| ------------- | ------------- |------------- |
-|    <b> <sub>Traditional</sub> </b>   | <sub>All Tasks</sub>  | <sub>9 hours</sub>    |
-|     <b><sub>Modern</sub></b>   | <sub>All Tasks</sub>        | <sub> 2 hours</sub>    |
-
-npm install -g webdriver-manager
-webdriver-manager start <pathtodriver> <<<<<Addded later
-                                                  
 #### Setup
 1- Clone the Repo<br />
 `$ git clone https://github.com/rehmanuet/UGF-Hackathon-WebDriverIO.git`<br/>
@@ -41,4 +22,22 @@ webdriver-manager start <pathtodriver> <<<<<Addded later
 |     <sub>npm run task1:ufg</sub>   |     <sub>Task 1 - UFG</sub>          |
 | <sub>npm run task2:ufg</sub> | <sub>Task 2 - UFG</sub>   |
 | <sub>npm run task3:ufg</sub> | <sub>Task 3 - UFG</sub>   |
+
+```Note: All test can run parallel on cross-browser just uncomment the`browser name from capabilties in wdio.conf.js, By-Default I set Chrome browser for simplity```
+
+
+#### Browser & Viewport
+|    Browsers   |    Version    |    Device    |   Viewport    |
+| ------------- | ------------- |------------- | ------------- |
+|     <sub>Chrome</sub>    | <sub>83.0.4103.97</sub>  | <sub>Laptop</sub>    | <sub>1200x700</sub>  |
+|     <sub>Firefox</sub>   | <sub>76.0.1</sub>        | <sub>Tablet</sub>    | <sub>800x700</sub>   |
+| <sub>Edge Chromium</sub> | <sub>83.0.478.45</sub>   | <sub>Mobile</sub> | <sub>500x700</sub>   |
+
+#### Task Status
+|    Approach  |    Task Completion |    Overall Time Taken  | 
+| ------------- | ------------- |------------- |
+|    <b> <sub>Traditional</sub> </b>   | <sub>All Tasks</sub>  | <sub>9 hours</sub>    |
+|     <b><sub>Modern</sub></b>   | <sub>All Tasks</sub>        | <sub> 2 hours</sub>    |
+
+                                                  
 
