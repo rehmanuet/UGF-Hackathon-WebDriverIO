@@ -4,3 +4,4 @@ junk.txt
 logs/wdio-selenium-standalone.log
 EdgeDriver.txt
 logs/*
+package.json
