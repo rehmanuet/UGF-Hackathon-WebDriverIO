@@ -7,20 +7,18 @@ Submitter: Abdur Rehman Ashraf
 - WebdriverIO v5 with Jasmine Framework
 
 
-#### Browser
-|    Browsers   |    Version    |
-| ------------- | ------------- |
-|     <sub>Chrome</sub>    | <sub>83.0.4103.61</sub>  |
-|     <sub>Firefox</sub>   |     <sub>cccccccc</sub>          |
-| <sub>Edge Chromium</sub> | <sub>83.0.478.37</sub>   |
+#### Browser & Viewport
+|    Browsers   |    Version    |    Device    |   Viewport    |
+| ------------- | ------------- |------------- | ------------- |
+|     <sub>Chrome</sub>    | <sub>83.0.4103.61</sub>  | <sub>Laptop</sub>    | <sub>1200x700</sub>  |
+|     <sub>Firefox</sub>   | <sub>76.0.1</sub>        | <sub>Tablet</sub>    | <sub>800x700</sub>   |
+| <sub>Edge Chromium</sub> | <sub>83.0.478.37</sub>   | <sub>Mobile</sub> | <sub>500x700</sub>   |
 
-#### Viewport
-|    Device   |    Viewport    |
-| ------------- | ------------- |
-|     <sub>Laptop</sub>    | <sub>1200x700</sub>  |
-|     <sub>Tablet</sub>   |     <sub>800x700</sub>          |
-| <sub>Mobile</sub> | <sub>500x700</sub>   |
-
+#### Task Status
+|    Approach  |    Task Completion |    Overall Time Taken  | 
+| ------------- | ------------- |------------- |
+|    <b> <sub>Traditional</sub> </b>   | <sub>All Tasks</sub>  | <sub>9 hours</sub>    |
+|     <b><sub>Modern</sub></b>   | <sub>All Tasks</sub>        | <sub> 2 hours</sub>    |
 
 npm install -g webdriver-manager
 webdriver-manager start <pathtodriver> <<<<<Addded later
@@ -44,9 +42,3 @@ webdriver-manager start <pathtodriver> <<<<<Addded later
 | <sub>npm run task2:ufg</sub> | <sub>Task 2 - UFG</sub>   |
 | <sub>npm run task3:ufg</sub> | <sub>Task 3 - UFG</sub>   |
 
-npm install -g webdriver-manager
-webdriver-manager start 
-```
-$ cd ../lorem
-$ npm install
-$ npm start

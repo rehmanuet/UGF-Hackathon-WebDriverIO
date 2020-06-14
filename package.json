@@ -1,7 +1,7 @@
 {
-  "name": "tau_hackathone",
+  "name": "ufg_hackathone",
   "version": "1.0.0",
-  "description": "",
+  "description": "Applitools Hackathone 2020",
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/webdriverio/bin/wdio wdio.conf.js",
@@ -11,9 +11,9 @@
     "task2:v2": "SET VERSION=V2 && wdio ./wdio.conf.js --spec ./TraditionalTest/task_2.js",
     "task3:v1": "SET VERSION=V1 && wdio ./wdio.conf.js --spec ./TraditionalTest/task_3.js",
     "task3:v2": "SET VERSION=V2 && wdio ./wdio.conf.js --spec ./TraditionalTest/task_3.js",
-    "ufg1": "wdio ./wdio.conf.js --spec ./ModernTest/task_1m.js",
-    "ufg2": "wdio ./wdio.conf.js --spec ./ModernTest/task_2m.js",
-    "ufg3": "wdio ./wdio.conf.js --spec ./ModernTest/task_3m.js"
+    "task1:ufg": "wdio ./wdio.conf.js --spec ./ModernTest/task_1m.js",
+    "task2:ufg": "wdio ./wdio.conf.js --spec ./ModernTest/task_2m.js",
+    "task3:ufg": "wdio ./wdio.conf.js --spec ./ModernTest/task_3m.js"
   
   },
   "author": "Abdur Rehman Ashraf",
