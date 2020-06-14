@@ -300,3 +300,9 @@
 "Task: 1, Test Name: View Grid Button isn't' displayed on chrome browser, DOM Id: [id^='I__tiviewgrid__20'], Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
 "Task: 1, Test Name: View List Button isn't' displayed on chrome browser, DOM Id: [id^='I__tiviewlist__20'], Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
 "Task: 1, Test Name: Wishlist Icon isn't' displayed on chrome browser, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: msedge, Viewport: 1200x700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: msedge, Viewport: 800x700, Device: Tablet, Status: Pass
+"Task: 2, Test Name: 2 Items have been available after filtering black shoe displayed, DOM Id: #colors__Black, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Pass
+"Task: 2, Test Name: Add to Favorites/Compare/Cart buttons are displayed, DOM Id: #UL____222, Browser: msedge, Viewport: 500x700, Device: Mobile, Status: Pass

@@ -1,7 +1,7 @@
 {
-  "name": "ufg_hackathone",
+  "name": "ufg_hackathon",
   "version": "1.0.0",
-  "description": "Applitools Hackathone 2020",
+  "description": "Applitools Hackathon 2020",
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/webdriverio/bin/wdio wdio.conf.js",
