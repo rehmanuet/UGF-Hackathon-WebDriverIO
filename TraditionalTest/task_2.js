@@ -4,7 +4,7 @@ var assert = require('assert')
 describe(`Task 2 - ${process.env.VERSION} Traditional`, function()
 {
     /**
-     * Gets the data from ./helper/utils.js's dataprovider2 object and provide to test cases for cross-browser
+     * Gets the data from ./helper/utils.js's dataProvider2 object and provide to test cases for cross-browser
      * browser testing with multiple viewports
      * @param {Array.Object} testData Data Provider object from ./helper/utils.js
      */
@@ -24,10 +24,10 @@ describe(`Task 2 - ${process.env.VERSION} Traditional`, function()
         // Sets the Width and Hieght
         browser.setWindowRect(0, 0, testData.width, testData.height)
 
-        // Gets the URI directly from wdio.conf.js via V1 or V2
+        // Gets the URI directly from wdio.conf.js via process.env.VERSION
         browser.url('')
 
-        // If device is not Laptop, Then click Filter button that'll be showed-up in Tablet & Mobile devices only
+        // If device is not Laptop, Then click Filter icon that'll be showed-up only in Tablet & Mobile devices only
         if (!testData.device.includes("Laptop"))
         {
           $('#ti-filter').click()
@@ -58,7 +58,7 @@ describe(`Task 2 - ${process.env.VERSION} Traditional`, function()
         {
           browser.execute(() =>{$("#product_1").mouseover();})
         }
-        
+
         // CHecks the Add to Favorites/Compare/Cart buttons visibility
         let is = $('#UL____222').isDisplayed();
 

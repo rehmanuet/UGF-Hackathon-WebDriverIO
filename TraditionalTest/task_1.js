@@ -5,7 +5,7 @@ describe(`Task 1 - ${process.env.VERSION} Traditional`, function()
 {
 
     /**
-     * Gets the data from ./helper/utils.js and provide to test cases for cross-browser
+     * Gets the data from ./helper/utils.js's dataProvider object and provide to test cases for cross-browser
      * browser testing with multiple viewports
      * @param {Array.Object} testData Data Provider object from ./helper/utils.js
      */
@@ -19,7 +19,7 @@ describe(`Task 1 - ${process.env.VERSION} Traditional`, function()
      * @param testData.device Name of the device eg. Laptop
      * @param testData.dom DOM Locator eg. #DIV__customsear__41
      * @param testData.name Name of the Locator eg. Search Bar
-     * @param testData.isDisplayed Boolean value eg. true= Should be displayed, false: Shouldn't be displayed
+     * @param testData.isDisplayed Boolean value eg. true = Should be displayed, false = Shouldn't be displayed
      * @param browser.capabilities.browserName Name of the browser on which test is executed
      */
 
@@ -29,7 +29,7 @@ describe(`Task 1 - ${process.env.VERSION} Traditional`, function()
         // Sets the Width and Hieght
         browser.setWindowRect(0, 0, testData.width, testData.height)
 
-        // Gets the URI directly from wdio.conf.js via V1 or V2
+        // Gets the URI directly from wdio.conf.js via process.env.VERSION
         browser.url('')
 
         let isVisible = $(testData.dom).isDisplayed()
