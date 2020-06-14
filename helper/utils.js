@@ -1,5 +1,6 @@
 const fs = require('fs')
 
+// Provides the different sets of data for task1
 var dataProvider = [
     { width: 1200, height: 700, device: "Laptop", dom: "#UL____21", name: "Header Menu", isDisplayed: true },
     { width: 1200, height: 700, device: "Laptop", dom: "#DIV__customsear__41", name: "Search Bar", isDisplayed: true },
@@ -28,6 +29,8 @@ var dataProvider = [
     { width: 500, height: 700, device: "Mobile", dom: "[id^='I__tiviewlist__20']", name: "View List Button", isDisplayed: false },
     { width: 500, height: 700, device: "Mobile", dom: "#A__wishlist__52", name: "Wishlist Icon", isDisplayed: false },
 ];
+
+// Provides the different set of data for task1
 var dataProvider2 = [
     { width: 1200, height: 700, device: "Laptop" },
     { width: 800, height: 700, device: "Tablet" },
@@ -38,13 +41,24 @@ var dataProvider2 = [
 
 var report = {
 
+  /**
+     * @param task Number of task 
+     * @param testName  Name of the task
+     * @param browsers Name of browser on which test runs
+     * @param viewportw Width of browser's window
+     * @param viewporth Height of borwser's window
+     * @param device Type of device eg. Laptop/Tablet/Mobile
+     * @param domId Element locator
+     * @param comparisonResult Assertion result
+     * @param expectedResult Expected result of the test case
+     */
+
     hackathonReporter(task, testName, browsers, viewportw, viewporth, device, domId, comparisonResult, expectedResult) {
         if (process.env.VERSION.trim() == 'V1') {
             fs.appendFileSync('Traditional-V1-TestResults.txt', `"Task: ${task}, Test Name: ${testName}, DOM Id: ${domId}, Browser: ${browsers}, Viewport: ${viewportw}x${viewporth}, Device: ${device}, Status: ${(comparisonResult === expectedResult ? "Pass" : "Fail")}\n`);
         } else {
             fs.appendFileSync('Traditional-V2-TestResults.txt', `"Task: ${task}, Test Name: ${testName}, DOM Id: ${domId}, Browser: ${browsers}, Viewport: ${viewportw}x${viewporth}, Device: ${device}, Status: ${(comparisonResult === expectedResult ? "Pass" : "Fail")}\n`);
         }
-
         return comparisonResult
     }
 }

@@ -26,7 +26,7 @@ describe(`Task 1 - ${process.env.VERSION} Traditional`, function()
     it(`${testData.name} ${(testData.isDisplayed === true) ? 'should' : "shouldn't"} be displayed on ${testData.device} devices`,() =>
       {
 
-        // Sets the Width and Hieght
+        // Sets the Width and Height
         browser.setWindowRect(0, 0, testData.width, testData.height)
 
         // Gets the URI directly from wdio.conf.js via process.env.VERSION

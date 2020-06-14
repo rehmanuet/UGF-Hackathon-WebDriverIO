@@ -20,7 +20,7 @@ describe(`Task 3 - ${process.env.VERSION} Traditional`, function() {
 
     it(`Verify Product Details of first black shoes on ${browser.capabilities.browserName} browser with viewport ${testData.width}x${testData.height}`,() => {
       
-        // Sets the Width and Hieght
+        // Sets the Width and Height
         browser.setWindowRect(0, 0, testData.width, testData.height);
 
         // Gets the URI directly from wdio.conf.js via process.env.VERSION
