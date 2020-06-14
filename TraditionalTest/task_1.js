@@ -4,11 +4,10 @@ var assert = require('assert')
 describe(`Task 1 - ${process.env.VERSION} Traditional`, function()
 {
 
-  /**
+    /**
      * Gets the data from ./helper/utils.js and provide to test cases for cross-browser
      * browser testing with multiple viewports
      * @param {Array.Object} testData Data Provider object from ./helper/utils.js
-
      */
 
   Utils.dataProvider.forEach(function(testData)
@@ -21,6 +20,7 @@ describe(`Task 1 - ${process.env.VERSION} Traditional`, function()
      * @param testData.dom DOM Locator eg. #DIV__customsear__41
      * @param testData.name Name of the Locator eg. Search Bar
      * @param testData.isDisplayed Boolean value eg. true= Should be displayed, false: Shouldn't be displayed
+     * @param browser.capabilities.browserName Name of the browser on which test is executed
      */
 
     it(`${testData.name} ${(testData.isDisplayed === true) ? 'should' : "shouldn't"} be displayed on ${testData.device} devices`,() =>
