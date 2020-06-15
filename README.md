@@ -70,8 +70,13 @@ $ java "-Dwebdriver.edge.driver=F:\\UGF-Hackathon-WebDriverIO\\edgedriver\\msedg
 
 ### Impressive Bugs
 
-#### Expectect | Actual
-<img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20a.JPG??raw=true" width="200" height="200" /><img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20a1.JPG??raw=true" width="200" height="200" />
+#### Expectect (V1) | Actual (V2)
+`By hovering with mouse on product it makes Add to Favorite/Compare/Cart visible which is being missed in V2`
+<img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20a.JPG??raw=true" width="200" height="200" /><img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20a1.JPG??raw=true" width="200" height="200" /> </br>
 
+` Quick Links is not collapsed with V2 on Mobile Devices` </br>
+<img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20b1%20(2).JPG?raw=true" width="200" height="200" /><img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20b1%20(1).JPG?raw=true" width="200" height="350" /> </br>
+
+<b>Many of bugs weren't caught by traditional approach but with Modern Approach it pretty muchimpressed me. For Example in Task 3 , Product ID for the item is available in the DOM but with while text color so traditional approach couldn't catch it by any cost but modern approach does. Kudos to Applitools</b>
 
 
