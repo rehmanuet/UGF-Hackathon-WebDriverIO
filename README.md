@@ -59,9 +59,19 @@ $ java "-Dwebdriver.edge.driver=F:\\UGF-Hackathon-WebDriverIO\\edgedriver\\msedg
 |    <b> <sub>Traditional</sub> </b>   | <sub>All Tasks</sub>  | <sub>11 hours</sub>    |
 |     <b><sub>Modern</sub></b>   | <sub>All Tasks</sub>        | <sub> 4 hours</sub>    |
 
-##### Task 1 V1
+#### Task 1 V1
 <img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Task_1.JPG??raw=true" width="700" height="400" />
-##### Task 2 V1
+
+#### Task 2 V1
 <img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Task_2.JPG??raw=true" width="800" height="400" />
-##### Task 3 V1
+
+#### Task 3 V1
 <img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Task_3.JPG??raw=true" width="800" height="400" />
+
+### Impressive Bugs
+
+#### Expectect | Actual
+<img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20a.JPG??raw=true" width="200" height="200" /><img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20a1.JPG??raw=true" width="200" height="200" />
+
+
+
