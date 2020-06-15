@@ -25,6 +25,16 @@ Submitter: Abdur Rehman Ashraf
 
 ```Note: All test can run parallel on cross-browser just uncomment the`browser name from capabilties in wdio.conf.js, By-Default I set Chrome browser for simplicity```
 
+For execution on Edge Chromium , one has to do following [setting](https://stackoverflow.com/a/59996510>) on windows (Policies has been changed by [Microsoft Team](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) )
+After setting up Edge Setting , Use following command to up the Edge Chromium via selenium standalone server from cmd. <br/>
+``` 
+$ java "-Dwebdriver.edge.driver=<path-of-repo>\\edgedriver\\msedgedriver.exe" -jar "<path-of-repo>\\edgedriver\\selenium-server-standalone-3.141.59.jar" -port 4444 <br/>
+```
+Example: <br/>
+```
+$ java "-Dwebdriver.edge.driver=F:\\UGF-Hackathon-WebDriverIO\\edgedriver\\msedgedriver.exe" -jar "F:\\UGF-Hackathon-WebDriverIO\\edgedriver\\selenium-server-standalone-3.141.59.jar" -port 4444
+```
+
 
 
 #### Browser & Viewport Catered
@@ -50,5 +60,4 @@ Submitter: Abdur Rehman Ashraf
 |     <b><sub>Modern</sub></b>   | <sub>All Tasks</sub>        | <sub> 4 hours</sub>    |
 
 
-                                                  
-
+       
