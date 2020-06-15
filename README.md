@@ -23,21 +23,32 @@ Submitter: Abdur Rehman Ashraf
 | <sub>npm run task2:ufg</sub> | <sub>Task 2 - UFG</sub>   |
 | <sub>npm run task3:ufg</sub> | <sub>Task 3 - UFG</sub>   |
 
-```Note: All test can run parallel on cross-browser just uncomment the`browser name from capabilties in wdio.conf.js, By-Default I set Chrome browser for simplity```
+```Note: All test can run parallel on cross-browser just uncomment the`browser name from capabilties in wdio.conf.js, By-Default I set Chrome browser for simplicity```
 
 
-#### Browser & Viewport
+
+#### Browser & Viewport Catered
 |    Browsers   |    Version    |    Device    |   Viewport    |
-| ------------- | ------------- |------------- | ------------- |
+| :-:  | :-:  | :-: | :-: |
 |     <sub>Chrome</sub>    | <sub>83.0.4103.97</sub>  | <sub>Laptop</sub>    | <sub>1200x700</sub>  |
 |     <sub>Firefox</sub>   | <sub>76.0.1</sub>        | <sub>Tablet</sub>    | <sub>800x700</sub>   |
 | <sub>Edge Chromium</sub> | <sub>83.0.478.45</sub>   | <sub>Mobile</sub> | <sub>500x700</sub>   |
 
+#### Traditional Test Cases count
+|    <sub>Task</sub>  |    <sub>Test cases (incl. different viewports)</sub> |  <sub>Browser Count</sub>  |  <sub>Total Test cases</sub>
+| :-:  | :-: | :-: | :-:  |
+|    <b> <sub>Task 1</sub> </b>   | <sub>26</sub>  | <sub>3</sub>    | <sub>78</sub> |
+|    <b> <sub>Task 2</sub> </b>   | <sub>6</sub>  | <sub>3</sub>    | <sub>18</sub> |
+|    <b> <sub>Task 3</sub> </b>   | <sub>15</sub>  | <sub>3</sub>    | <sub>45</sub> |
+<b><sub>Sub Total Test cases</sub></b>|  |  | <b><sub>141</b></sub>
+
+
 #### Task Status
 |    Approach  |    Task Completion |    Overall Time Taken  | 
-| ------------- | ------------- |------------- |
-|    <b> <sub>Traditional</sub> </b>   | <sub>All Tasks</sub>  | <sub>9 hours</sub>    |
-|     <b><sub>Modern</sub></b>   | <sub>All Tasks</sub>        | <sub> 2 hours</sub>    |
+| :-: | :-: |:-: |
+|    <b> <sub>Traditional</sub> </b>   | <sub>All Tasks</sub>  | <sub>11 hours</sub>    |
+|     <b><sub>Modern</sub></b>   | <sub>All Tasks</sub>        | <sub> 4 hours</sub>    |
+
 
                                                   
 
