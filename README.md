@@ -60,4 +60,6 @@ $ java "-Dwebdriver.edge.driver=F:\\UGF-Hackathon-WebDriverIO\\edgedriver\\msedg
 |     <b><sub>Modern</sub></b>   | <sub>All Tasks</sub>        | <sub> 4 hours</sub>    |
 
 
-       
+<img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Task_1.JPG??raw=true" width="700" height="400" />
+<img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Task_2.JPG??raw=true" width="800" height="400" />
+<img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Task_3.JPG??raw=true" width="800" height="400" />
