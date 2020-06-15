@@ -77,6 +77,7 @@ $ java "-Dwebdriver.edge.driver=F:\\UGF-Hackathon-WebDriverIO\\edgedriver\\msedg
 ` Quick Links is not collapsed with V2 on Mobile Devices` </br>
 <img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20b1%20(2).JPG?raw=true" width="200" height="200" /><img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20b1%20(1).JPG?raw=true" width="200" height="350" /> </br>
 
-<b>Many of bugs weren't caught by traditional approach but with Modern Approach it pretty muchimpressed me. For Example in Task 3 , Product ID for the item is available in the DOM but with while text color so traditional approach couldn't catch it by any cost but modern approach does. Kudos to Applitools</b>
+<b>Many of bugs weren't caught by traditional approach but with Modern Approach it much impressed me. For Example in Task 3, Product ID for the item is available in the DOM but with while text color so traditional approach couldn't catch it by any cost but modern approach does. Kudos to Applitools</b>
+<b>Great Learning Experience with whole new prespective of visual testing</b>
 
 
