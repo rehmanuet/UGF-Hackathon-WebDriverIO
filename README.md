@@ -68,7 +68,7 @@ $ java "-Dwebdriver.edge.driver=F:\\UGF-Hackathon-WebDriverIO\\edgedriver\\msedg
 #### Task 3 V1
 <img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Task_3.JPG??raw=true" width="800" height="400" />
 
-### Impressive Bugs
+### Impressive Catchs
 
 #### Expectect (V1) | Actual (V2)
 `By hovering with mouse on product it makes Add to Favorite/Compare/Cart visible which is being missed in V2`
