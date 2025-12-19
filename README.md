@@ -1,5 +1,5 @@
 # Applitools UFG Hackathon WebDriverIO v5
-Winner in Silver Category: [Applitools Cross Browser Hackathon Winners](https://applitools.com/hackathon/) <br />
+Winner in Silver Category: [Applitools Cross Browser Hackathon Winners](https://applitools.com/2020-cross-browser-testing-hackathon-winners/) <br />
 Submitter: Rehman Ashraf <br />
 
 
